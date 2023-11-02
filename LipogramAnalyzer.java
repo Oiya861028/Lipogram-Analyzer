@@ -13,13 +13,13 @@ public class LipogramAnalyzer {
             if(line.charAt(i) == ' '){
                 if(word.indexOf(Letter)!=-1 && result.indexOf(word)==-1){
                     result += word+"\n";
-                    System.out.println("Result:" + result);
+
                 }
                 word = "";
 
             } else {
                 word += line.charAt(i);
-                System.out.println("Word:" + word);
+
             }
 
         }
